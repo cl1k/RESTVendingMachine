@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Faster+One|Press+Start+2P" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Vending Machine</title>
+</head>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <header>
+                    Speedy-Snack
+                </header>
+                <hr />
+                <div class="row">
+                    <div id="items-div" class="col-md-8">
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h5 class="card-header">
+                                Insert Cash / Coins
+                            </h5>
+                            <div class="card-body">
+                                <input id="user-cash" class="form-control" type="text" placeholder="0" readonly>
+
+                                <div id="button-group">
+                                    <button id="dollar-button" class="btn btn-secondary" type="button">
+                                        $1.00
+                                    </button>
+                                    <button id="quarter-button" class="btn btn-secondary" type="button">
+                                        $0.25
+                                    </button>
+                                    <button id="dime-button" class="btn btn-secondary" type="button">
+                                        $0.10
+                                    </button>
+                                    <button id="nickel-button" class="btn btn-secondary" type="button">
+                                        $.0.05
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h5 class="card-header">
+                                <input id="message-form" class="form-control" type="text" placeholder="" readonly>
+                            </h5>
+                            <div class="card-body">
+                                <h5 class="card-text">
+                                    Item Selected
+                                <input id="item-form" class="form-control" type="text" placeholder="" readonly>
+                                </h5>
+                            </div>
+                            <div class="card-footer">
+                                <button id="purchase-button" class="btn btn-secondary" type="button">MAKE PURCHASE</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-header">
+                                <input id="change-return" class="form-control" type="text" placeholder="" readonly>
+                            </h5>
+                            <button id="change-return-button" class="btn btn-secondary" type="button">CHANGE RETURN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/home.js"></script>
+    </body>
+
+</html>

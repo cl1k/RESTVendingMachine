@@ -1,0 +1,36 @@
+header {
+    font-family: 'Faster One', cursive;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.card {
+    padding: .03rem;
+}
+
+#button-group {
+    margin-top: 5px;
+}
+
+#item-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.snack-button {
+    font-family: 'Press Start 2P', cursive;
+    width: 25%;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+/* font-family: 'Audiowide', cursive; */
+
+/* font-family: 'Press Start 2P', cursive; */
+
+/* font-family: 'Faster One', cursive; */
+
