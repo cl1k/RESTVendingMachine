@@ -62,7 +62,8 @@ function getItemButtons() {
 
     $.ajax({
         type: 'GET',
-        url: 'https://safe-citadel-78971.herokuapp.com/items',
+        url: `https://safe-citadel-78971.herokuapp.com/items`,
+        // url: `http://localhost:8080/items`,
         success: function (data, status) {
             $.each(data, function (index, item) {
                 var id = item.id;
@@ -113,6 +114,7 @@ $('#purchase-button').click(function (e) {
     $.ajax({
         type: 'GET',
         url: `https://safe-citadel-78971.herokuapp.com/money/${amount}/item/${id}`,
+        // url: `http://localhost:8080/money/${amount}/item/${id}`,
         success: function (data, status) {
             $('#items-div').empty();
             $('#message-form').val('');
