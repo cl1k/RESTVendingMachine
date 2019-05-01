@@ -107,7 +107,7 @@ $('#change-return-button').click(function (e) {
 });
 
 $('#purchase-button').click(function (e) {
-    $('#change-return').empty();
+    $('#change-return').val('');
     var id = $('#item-form').val();
     var amount = $('#user-cash').val() || 0;
 
